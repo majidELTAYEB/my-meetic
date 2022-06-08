@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>my meetic inscription</title>
+    <link rel="stylesheet" href="styleInscription.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/marta" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/path/to/cdn/jquery.slim.min.js"></script>
+    <script src="/path/to/src/jquery.multi-select.js"></script>
+</head>
+<body>
+     <header>
+            <div>
+                 <img class="logo" src="images/brave.png" alt="logo">
+            </div>
+            <div>
+                 <h1>
+                   Inscription
+                 </h1>
+            </div>
+     </header>
+     <main>
+      <section>
+         <div class="form">
+              <form id="formu">
+                <label for="lastname">Nom</label><input type="text" id="lastname" name="lastname" placeholder="votre nom"><br>
+                <label for="firstname">Prénom</label><input type="text" id="firstname" name="firstname" placeholder="votre prénom"><br>
+                <label for="birthdate">Date de naissance</label><input type="date" id="birthdate" name="birthdate" max="2003-12-31"><br>
+                <label for="genre">Genre</label><select name="genre" id="genre">
+                        <option value="autres">Autre</option>
+                        <option value="homme">Homme</option>
+                        <option value="femme">Femme</option>
+                </select><br>
+                <label for="ville">Ville</label><input type="text" id="ville" name="ville" placeholder="votre ville"><br>
+                  <input type="checkbox" name="genre[]" value="manger">Manger
+                  <input type="checkbox" name="Days[]" value="sortir">Sortir
+                  <input type="checkbox" name="Days[]" value="musique">Musique
+                  <input type="checkbox" name="Days[]" value="musée">Musée
+                  <input type="checkbox" name="Days[]" value="Cinema">Cinema
+                  <input type="checkbox" name="Days[]" value="danser">Danser
+                  <input type="checkbox" name="Days[]" value="voyager">Voyager
+                  <input type="checkbox" name="Days[]" value="mode">Mode
+
+
+
+                  <label for="email">Email</label><input type="email" placeholder="votre email" id="email" name="email"><br>
+                  <label for="password">Mot de passe</label><input type="password" id="password" name="password"><br>
+                  <input class="button" type="button" value="Validation">
+              </form>
+          </div>
+      </section><hr>
+      <div>
+          <p>Vous avez un compte ?</p>
+          <a href="connexion.html"> Connectez-vous</a>
+      </div>
+     </main>
+     <script type="text/javascript" src="../model/bisIscription.js"></script>
+</body>
+</html>

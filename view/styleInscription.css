@@ -1,0 +1,117 @@
+body{
+    background-color: #211a4e;
+    color: white;
+
+}
+.logo{
+    padding-left: 650px;
+    padding-top: 0;
+}
+h1{
+    padding-left: 750px;
+    font-family: 'Marta', sans-serif;
+    margin-top: 100px;
+}
+
+section {
+    position: relative;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+section .form {
+    position: relative;
+    top: 3%;
+    left: 30%;
+    max-width: 600px;
+    padding: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    padding-bottom: 10px;
+
+}
+
+label{
+    display: block;
+    width: 150px;
+    float: left;
+    padding-left: 130px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+input{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+select{
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.button{
+    margin-left: 250px;
+    margin-top: 30px;
+    background-color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    height:20px;
+    width:60px;
+    padding-bottom: 20px;
+}
+
+a {
+    display: block;
+    margin-left: 750px;
+    margin-top: 0;
+    text-decoration: none;
+    cursor: auto;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 40px;
+    margin-right: 702px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+hr{
+    width:40%;
+    margin-left: 515px;
+    background-color:  white;
+    height: 3px;
+    border-radius: 2px;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 47%;
+    font-size: 20px;
+}
+
+.connec{
+    margin-left: 90px;
+    background-color:#211a4e;
+    border-style: solid;
+    border-color: #c425d5;
+    color: aliceblue;
+}
+.button1{
+    margin-left: 125px;
+    background-color: #211a4e;
+    border-style: solid;
+    border-color: #c425d5;
+    color: grey;
+}
+.form2{
+    position: relative;
+    top: 3%;
+    left: 37%;
+    width: 20%;
+    padding: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    padding-bottom: 10px;
+
+}
